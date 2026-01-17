@@ -1,0 +1,118 @@
+* {
+  font-family: "IBM Plex Mono", monospace;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #fff9f0;
+  color: #000;
+  line-height: 1.7;
+}
+
+/* ---------------- TOP BAR ---------------- */
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 36px 48px 0 48px;
+}
+
+.top-left a {
+  margin-right: 22px;
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+}
+
+.top-left a:hover {
+  text-decoration: underline;
+}
+
+/* ---------------- LEAF ---------------- */
+
+.top-right svg {
+  width: 42px;
+  height: 42px;
+  display: block;
+}
+
+.leaf {
+  transform: rotate(165deg);
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+/* ---------------- CONTENT ---------------- */
+
+.content {
+  max-width: 720px;
+  padding: 120px 48px 0 48px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 28px;
+}
+
+.intro {
+  font-size: 16px;
+  margin-bottom: 72px;
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  margin-bottom: 28px;
+  text-transform: lowercase;
+}
+
+/* ---------------- LIST ---------------- */
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 48px;
+}
+
+ul li {
+  margin-bottom: 14px;
+}
+
+ul li::before {
+  content: "〜 ";
+}
+
+/* ---------------- CHAT LINE ---------------- */
+
+.chat-line {
+  margin-top: 48px;
+  font-size: 14px;
+}
+
+/* ---------------- DIVIDER ---------------- */
+
+.divider {
+  width: 260px;
+  height: 1px;
+  background: #cfcfcf;
+  margin: 56px auto 24px auto;
+}
+
+/* ---------------- FOOTER ---------------- */
+
+.footer {
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+.footer-text {
+  font-size: 13px;
+  color: #333;
+  line-height: 1.6;
+}
+
+
